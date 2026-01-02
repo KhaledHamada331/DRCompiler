@@ -1,69 +1,36 @@
-# 🚀 DR Language Compiler
+## 🚀 Running the Application
 
-An interactive **Compiler** built from scratch using **C#** and **.NET Framework**. This project was developed as part of our **Compiler Design** course to demonstrate the full compilation pipeline—from raw source code to semantic validation.
+After running the application, the main interface appears as shown below:
 
-Developed by: **Khaled Hamada** & **Khaled Mohamed**.
-
----
-
-## ✨ Project Overview
-
-The **DR Compiler** is a desktop application designed to process a custom-defined syntax (DR Language). It features a modern Dark-themed GUI that provides real-time feedback on every stage of the compilation process.
-
-### 🛠️ The Compilation Pipeline
-
-Our project implements the three core phases of a compiler:
-
-1.   **Lexical Analysis (Scanner):**  
-    *  Uses **Regular Expressions (Regex)** to tokenize the source code.  
-    *  Identifies keywords (e.g., `plan`, `CHECK`, `REWORK`), literals, and operators.  
-    *  Handles single-character symbols and multi-character operators like `++` or `>=`.  
-
-2.   **Syntax Analysis (Parser):**  
-    *  Implements a **Recursive Descent Parser**.  
-    *  Validates the structure of the code against the language grammar.  
-    *  Generates an **Abstract Syntax Tree (AST)** / Parse Tree for visualization.
-
-3.   **Semantic Analysis:**  
-    *  Manages a **Symbol Table** using a stack-based approach to handle nested Scopes.  
-    *  Performs **Type Checking** (e.g., ensuring a `duration` (double) isn't assigned to a `status` (bool)).  
-    *  Detects redeclarations and undefined identifiers.  
+![Run Application](images/run.png)
 
 ---
 
-## 📝 DR Language Features
+## ✍ Writing Source Code
 
-The language includes specialized data types and control structures:
+You can write your source code in the input area of the compiler:
 
-| Keyword | Type / Function |
-| :--- | :--- |
-| `file` |  Integer Type   |
-| `duration` |  Double/Floating-point Type   |
-| `note` |  String Type   |
-| `status` |  Boolean Type   |
-| `plan MORNING_COFFEE()` |  Main Function Entry |
-| `CHECK` / `REJECT` |  If / Else Logic   |
-| `REWORK` |  While Loop   |
-| `SHOW` |  Output Statement   |
+![Source Code](images/code.png)
 
 ---
 
-## 💻 Tech Stack & Tools
+## ✅ Successful Compilation Output
 
-*  **Language:** C#  
-*  **Framework:** .NET Framework v4.7.2  
-*  **GUI:** Windows Forms (WinForms)  
-*  **Key Algorithms:** Recursive Descent Parsing, Tree Traversal, Stack-based Scope Management.  
+When the code is correct, the compiler produces the following output:
 
----
-
-## 🚀 Getting Started
-
-1.   **Prerequisites:** Visual Studio 2017/2019/2022 and .NET Framework 4.7.2.  
-2.   **Run:** Open the `.csproj` file, build the solution, and run the `DR_GUI` application. 
-3.   **Test:** Use the "Load Example" button or write your own DR code in the editor and click **Run Compiler**.  
+![Output](images/output.png)
 
 ---
 
-## 🤝 Collaboration
- Special thanks to **Khaled Mohamed** for the core contribution to the scanning logic and semantic validation rules.  
+## ❌ Error Handling
+
+If there is a syntax or semantic error, the compiler displays detailed error messages:
+
+![Error](images/error.png)
+
+---
+
+## 📚 Project Purpose
+
+This project is intended for learning and understanding how a compiler works internally,
+from reading source code to detecting errors.
