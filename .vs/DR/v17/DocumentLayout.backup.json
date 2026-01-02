@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\The most important folder\\Al gam3a\\Compiler\\DR\\DR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4A1B09-6AAB-4C77-BE0C-9AC6329A3920}|DR\\DR.csproj|f:\\the most important folder\\al gam3a\\compiler\\dr\\dr\\dr\\test.dr||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1A4A1B09-6AAB-4C77-BE0C-9AC6329A3920}|DR\\DR.csproj|solutionrelative:dr\\test.dr||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4A1B09-6AAB-4C77-BE0C-9AC6329A3920}|DR\\DR.csproj|f:\\the most important folder\\al gam3a\\compiler\\dr\\dr\\dr\\test2.dr||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1A4A1B09-6AAB-4C77-BE0C-9AC6329A3920}|DR\\DR.csproj|solutionrelative:dr\\test2.dr||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4A1B09-6AAB-4C77-BE0C-9AC6329A3920}|DR\\DR.csproj|f:\\the most important folder\\al gam3a\\compiler\\dr\\dr\\dr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4A1B09-6AAB-4C77-BE0C-9AC6329A3920}|DR\\DR.csproj|solutionrelative:dr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4A1B09-6AAB-4C77-BE0C-9AC6329A3920}|DR\\DR.csproj|f:\\the most important folder\\al gam3a\\compiler\\dr\\dr\\dr\\drparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4A1B09-6AAB-4C77-BE0C-9AC6329A3920}|DR\\DR.csproj|solutionrelative:dr\\drparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4A1B09-6AAB-4C77-BE0C-9AC6329A3920}|DR\\DR.csproj|f:\\the most important folder\\al gam3a\\compiler\\dr\\dr\\dr\\drscanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4A1B09-6AAB-4C77-BE0C-9AC6329A3920}|DR\\DR.csproj|solutionrelative:dr\\drscanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4A1B09-6AAB-4C77-BE0C-9AC6329A3920}|DR\\DR.csproj|f:\\the most important folder\\al gam3a\\compiler\\dr\\dr\\dr\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4A1B09-6AAB-4C77-BE0C-9AC6329A3920}|DR\\DR.csproj|solutionrelative:dr\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "test2.dr",
+              "DocumentMoniker": "F:\\The most important folder\\Al gam3a\\Compiler\\DR\\DR\\DR\\test2.dr",
+              "RelativeDocumentMoniker": "DR\\test2.dr",
+              "ToolTip": "F:\\The most important folder\\Al gam3a\\Compiler\\DR\\DR\\DR\\test2.dr",
+              "RelativeToolTip": "DR\\test2.dr",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-09T22:00:50.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.dr",
+              "DocumentMoniker": "F:\\The most important folder\\Al gam3a\\Compiler\\DR\\DR\\DR\\test.dr",
+              "RelativeDocumentMoniker": "DR\\test.dr",
+              "ToolTip": "F:\\The most important folder\\Al gam3a\\Compiler\\DR\\DR\\DR\\test.dr*",
+              "RelativeToolTip": "DR\\test.dr*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-09T21:11:53.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DRParser.cs",
+              "DocumentMoniker": "F:\\The most important folder\\Al gam3a\\Compiler\\DR\\DR\\DR\\DRParser.cs",
+              "RelativeDocumentMoniker": "DR\\DRParser.cs",
+              "ToolTip": "F:\\The most important folder\\Al gam3a\\Compiler\\DR\\DR\\DR\\DRParser.cs",
+              "RelativeToolTip": "DR\\DRParser.cs",
+              "ViewState": "AgIAALoCAAAAAAAAAAAgwMoCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T20:02:24.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DRScanner.cs",
+              "DocumentMoniker": "F:\\The most important folder\\Al gam3a\\Compiler\\DR\\DR\\DR\\DRScanner.cs",
+              "RelativeDocumentMoniker": "DR\\DRScanner.cs",
+              "ToolTip": "F:\\The most important folder\\Al gam3a\\Compiler\\DR\\DR\\DR\\DRScanner.cs",
+              "RelativeToolTip": "DR\\DRScanner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T20:02:10.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Token.cs",
+              "DocumentMoniker": "F:\\The most important folder\\Al gam3a\\Compiler\\DR\\DR\\DR\\Token.cs",
+              "RelativeDocumentMoniker": "DR\\Token.cs",
+              "ToolTip": "F:\\The most important folder\\Al gam3a\\Compiler\\DR\\DR\\DR\\Token.cs",
+              "RelativeToolTip": "DR\\Token.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T20:01:53.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\The most important folder\\Al gam3a\\Compiler\\DR\\DR\\DR\\Program.cs",
+              "RelativeDocumentMoniker": "DR\\Program.cs",
+              "ToolTip": "F:\\The most important folder\\Al gam3a\\Compiler\\DR\\DR\\DR\\Program.cs",
+              "RelativeToolTip": "DR\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T23:57:40.293Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

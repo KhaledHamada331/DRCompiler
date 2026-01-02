@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\\u0631\u0627\u0628\u0639\u0647\\\u0645\u0627\u062A\u0631\u064A\u0627\u0644 \u062C\u062F\u064A\u062F\u0647\\compiler\\proj\\DR\\DR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4A1B09-6AAB-4C77-BE0C-9AC6329A3920}|DR\\DR.csproj|e:\\\u0631\u0627\u0628\u0639\u0647\\\u0645\u0627\u062A\u0631\u064A\u0627\u0644 \u062C\u062F\u064A\u062F\u0647\\compiler\\proj\\dr\\dr\\dr\\dr_gui\\drparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4A1B09-6AAB-4C77-BE0C-9AC6329A3920}|DR\\DR.csproj|solutionrelative:dr\\dr_gui\\drparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4A1B09-6AAB-4C77-BE0C-9AC6329A3920}|DR\\DR.csproj|e:\\\u0631\u0627\u0628\u0639\u0647\\\u0645\u0627\u062A\u0631\u064A\u0627\u0644 \u062C\u062F\u064A\u062F\u0647\\compiler\\proj\\dr\\dr\\dr\\dr_gui\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4A1B09-6AAB-4C77-BE0C-9AC6329A3920}|DR\\DR.csproj|solutionrelative:dr\\dr_gui\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4A1B09-6AAB-4C77-BE0C-9AC6329A3920}|DR\\DR.csproj|e:\\\u0631\u0627\u0628\u0639\u0647\\\u0645\u0627\u062A\u0631\u064A\u0627\u0644 \u062C\u062F\u064A\u062F\u0647\\compiler\\proj\\dr\\dr\\dr\\dr_gui\\drscanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A4A1B09-6AAB-4C77-BE0C-9AC6329A3920}|DR\\DR.csproj|solutionrelative:dr\\dr_gui\\drscanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A4A1B09-6AAB-4C77-BE0C-9AC6329A3920}|DR\\DR.csproj|e:\\\u0631\u0627\u0628\u0639\u0647\\\u0645\u0627\u062A\u0631\u064A\u0627\u0644 \u062C\u062F\u064A\u062F\u0647\\compiler\\proj\\dr\\dr\\dr\\test.dr||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1A4A1B09-6AAB-4C77-BE0C-9AC6329A3920}|DR\\DR.csproj|solutionrelative:dr\\test.dr||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DRScanner.cs",
+              "DocumentMoniker": "E:\\\u0631\u0627\u0628\u0639\u0647\\\u0645\u0627\u062A\u0631\u064A\u0627\u0644 \u062C\u062F\u064A\u062F\u0647\\compiler\\proj\\DR\\DR\\DR\\DR_GUI\\DRScanner.cs",
+              "RelativeDocumentMoniker": "DR\\DR_GUI\\DRScanner.cs",
+              "ToolTip": "E:\\\u0631\u0627\u0628\u0639\u0647\\\u0645\u0627\u062A\u0631\u064A\u0627\u0644 \u062C\u062F\u064A\u062F\u0647\\compiler\\proj\\DR\\DR\\DR\\DR_GUI\\DRScanner.cs",
+              "RelativeToolTip": "DR\\DR_GUI\\DRScanner.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T08:09:46.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DRParser.cs",
+              "DocumentMoniker": "E:\\\u0631\u0627\u0628\u0639\u0647\\\u0645\u0627\u062A\u0631\u064A\u0627\u0644 \u062C\u062F\u064A\u062F\u0647\\compiler\\proj\\DR\\DR\\DR\\DR_GUI\\DRParser.cs",
+              "RelativeDocumentMoniker": "DR\\DR_GUI\\DRParser.cs",
+              "ToolTip": "E:\\\u0631\u0627\u0628\u0639\u0647\\\u0645\u0627\u062A\u0631\u064A\u0627\u0644 \u062C\u062F\u064A\u062F\u0647\\compiler\\proj\\DR\\DR\\DR\\DR_GUI\\DRParser.cs",
+              "RelativeToolTip": "DR\\DR_GUI\\DRParser.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T08:07:22.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "test.dr",
+              "DocumentMoniker": "E:\\\u0631\u0627\u0628\u0639\u0647\\\u0645\u0627\u062A\u0631\u064A\u0627\u0644 \u062C\u062F\u064A\u062F\u0647\\compiler\\proj\\DR\\DR\\DR\\test.dr",
+              "RelativeDocumentMoniker": "DR\\test.dr",
+              "ToolTip": "E:\\\u0631\u0627\u0628\u0639\u0647\\\u0645\u0627\u062A\u0631\u064A\u0627\u0644 \u062C\u062F\u064A\u062F\u0647\\compiler\\proj\\DR\\DR\\DR\\test.dr",
+              "RelativeToolTip": "DR\\test.dr",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-10T01:47:23.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Token.cs",
+              "DocumentMoniker": "E:\\\u0631\u0627\u0628\u0639\u0647\\\u0645\u0627\u062A\u0631\u064A\u0627\u0644 \u062C\u062F\u064A\u062F\u0647\\compiler\\proj\\DR\\DR\\DR\\DR_GUI\\Token.cs",
+              "RelativeDocumentMoniker": "DR\\DR_GUI\\Token.cs",
+              "ToolTip": "E:\\\u0631\u0627\u0628\u0639\u0647\\\u0645\u0627\u062A\u0631\u064A\u0627\u0644 \u062C\u062F\u064A\u062F\u0647\\compiler\\proj\\DR\\DR\\DR\\DR_GUI\\Token.cs",
+              "RelativeToolTip": "DR\\DR_GUI\\Token.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T01:47:06.873Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

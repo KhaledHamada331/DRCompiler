@@ -1,0 +1,10 @@
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\DR_GUI\bin\Debug\DR_GUI.exe.config
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\DR_GUI\bin\Debug\DR_GUI.exe
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\DR_GUI\bin\Debug\DR_GUI.pdb
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\DR_GUI\obj\Debug\DR_GUI.csproj.AssemblyReference.cache
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\DR_GUI\obj\Debug\DR_GUI.Properties.Resources.resources
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\DR_GUI\obj\Debug\DR_GUI.csproj.GenerateResource.cache
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\DR_GUI\obj\Debug\DR_GUI.csproj.CoreCompileInputs.cache
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\DR_GUI\obj\Debug\DR_GUI.exe
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\DR_GUI\obj\Debug\DR_GUI.pdb
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\DR_GUI\obj\Debug\DR_GUI.Form1.resources

@@ -1,0 +1,16 @@
+﻿
+#ATTACH files
+
+plan MORNING_COFFEE()
+{
+    file f = 5;
+    duration d = 10.0;
+    duration d = 10.0;
+    file s = "khaled";
+
+    CHECK (d >= 10.0) 
+    {
+        SHOW "Duration OK";
+    }
+    
+}

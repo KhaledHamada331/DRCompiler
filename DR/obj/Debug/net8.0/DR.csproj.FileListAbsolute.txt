@@ -1,0 +1,103 @@
+E:\رابعه\ماتريال جديده\compiler\DR\DR\bin\Debug\net8.0\appsettings.Development.json
+E:\رابعه\ماتريال جديده\compiler\DR\DR\bin\Debug\net8.0\appsettings.json
+E:\رابعه\ماتريال جديده\compiler\DR\DR\bin\Debug\net8.0\DR.exe
+E:\رابعه\ماتريال جديده\compiler\DR\DR\bin\Debug\net8.0\DR.deps.json
+E:\رابعه\ماتريال جديده\compiler\DR\DR\bin\Debug\net8.0\DR.runtimeconfig.json
+E:\رابعه\ماتريال جديده\compiler\DR\DR\bin\Debug\net8.0\DR.dll
+E:\رابعه\ماتريال جديده\compiler\DR\DR\bin\Debug\net8.0\DR.pdb
+E:\رابعه\ماتريال جديده\compiler\DR\DR\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\رابعه\ماتريال جديده\compiler\DR\DR\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\رابعه\ماتريال جديده\compiler\DR\DR\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\رابعه\ماتريال جديده\compiler\DR\DR\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\رابعه\ماتريال جديده\compiler\DR\DR\obj\Debug\net8.0\DR.csproj.AssemblyReference.cache
+E:\رابعه\ماتريال جديده\compiler\DR\DR\obj\Debug\net8.0\DR.GeneratedMSBuildEditorConfig.editorconfig
+E:\رابعه\ماتريال جديده\compiler\DR\DR\obj\Debug\net8.0\DR.AssemblyInfoInputs.cache
+E:\رابعه\ماتريال جديده\compiler\DR\DR\obj\Debug\net8.0\DR.AssemblyInfo.cs
+E:\رابعه\ماتريال جديده\compiler\DR\DR\obj\Debug\net8.0\DR.csproj.CoreCompileInputs.cache
+E:\رابعه\ماتريال جديده\compiler\DR\DR\obj\Debug\net8.0\staticwebassets.build.json
+E:\رابعه\ماتريال جديده\compiler\DR\DR\obj\Debug\net8.0\staticwebassets.development.json
+E:\رابعه\ماتريال جديده\compiler\DR\DR\obj\Debug\net8.0\staticwebassets\msbuild.DR.Microsoft.AspNetCore.StaticWebAssets.props
+E:\رابعه\ماتريال جديده\compiler\DR\DR\obj\Debug\net8.0\staticwebassets\msbuild.build.DR.props
+E:\رابعه\ماتريال جديده\compiler\DR\DR\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DR.props
+E:\رابعه\ماتريال جديده\compiler\DR\DR\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DR.props
+E:\رابعه\ماتريال جديده\compiler\DR\DR\obj\Debug\net8.0\staticwebassets.pack.json
+E:\رابعه\ماتريال جديده\compiler\DR\DR\obj\Debug\net8.0\scopedcss\bundle\DR.styles.css
+E:\رابعه\ماتريال جديده\compiler\DR\DR\obj\Debug\net8.0\DR.csproj.Up2Date
+E:\رابعه\ماتريال جديده\compiler\DR\DR\obj\Debug\net8.0\DR.dll
+E:\رابعه\ماتريال جديده\compiler\DR\DR\obj\Debug\net8.0\refint\DR.dll
+E:\رابعه\ماتريال جديده\compiler\DR\DR\obj\Debug\net8.0\DR.pdb
+E:\رابعه\ماتريال جديده\compiler\DR\DR\obj\Debug\net8.0\DR.genruntimeconfig.cache
+E:\رابعه\ماتريال جديده\compiler\DR\DR\obj\Debug\net8.0\ref\DR.dll
+E:\رابعه\ماتريال جديده\compiler\DR\DR\obj\Debug\net8.0\DR.MvcApplicationPartsAssemblyInfo.cs
+E:\رابعه\ماتريال جديده\compiler\DR\DR\obj\Debug\net8.0\DR.MvcApplicationPartsAssemblyInfo.cache
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\bin\Debug\net8.0\appsettings.Development.json
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\bin\Debug\net8.0\appsettings.json
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\bin\Debug\net8.0\DR.staticwebassets.endpoints.json
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\bin\Debug\net8.0\DR.exe
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\bin\Debug\net8.0\DR.deps.json
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\bin\Debug\net8.0\DR.runtimeconfig.json
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\bin\Debug\net8.0\DR.dll
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\bin\Debug\net8.0\DR.pdb
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\bin\Debug\net8.0\Microsoft.OpenApi.dll
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\DR.csproj.AssemblyReference.cache
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\DR.GeneratedMSBuildEditorConfig.editorconfig
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\DR.AssemblyInfoInputs.cache
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\DR.AssemblyInfo.cs
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\DR.csproj.CoreCompileInputs.cache
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\DR.MvcApplicationPartsAssemblyInfo.cs
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\DR.MvcApplicationPartsAssemblyInfo.cache
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\scopedcss\bundle\DR.styles.css
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\staticwebassets.build.json
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\staticwebassets.development.json
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\staticwebassets\msbuild.DR.Microsoft.AspNetCore.StaticWebAssets.props
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\staticwebassets\msbuild.DR.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\staticwebassets\msbuild.build.DR.props
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DR.props
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DR.props
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\staticwebassets.pack.json
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\DR.csproj.Up2Date
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\DR.dll
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\refint\DR.dll
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\DR.pdb
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\DR.genruntimeconfig.cache
+F:\The most important folder\Al gam3a\Compiler\DR\DR\DR\obj\Debug\net8.0\ref\DR.dll
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\bin\Debug\net8.0\appsettings.Development.json
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\bin\Debug\net8.0\appsettings.json
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\bin\Debug\net8.0\DR.exe
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\bin\Debug\net8.0\DR.deps.json
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\bin\Debug\net8.0\DR.runtimeconfig.json
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\bin\Debug\net8.0\DR.dll
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\bin\Debug\net8.0\DR.pdb
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\DR.csproj.AssemblyReference.cache
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\DR.GeneratedMSBuildEditorConfig.editorconfig
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\DR.AssemblyInfoInputs.cache
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\DR.AssemblyInfo.cs
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\DR.csproj.CoreCompileInputs.cache
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\DR.MvcApplicationPartsAssemblyInfo.cs
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\DR.MvcApplicationPartsAssemblyInfo.cache
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\staticwebassets.build.json
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\staticwebassets.development.json
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\staticwebassets\msbuild.DR.Microsoft.AspNetCore.StaticWebAssets.props
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\staticwebassets\msbuild.build.DR.props
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DR.props
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DR.props
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\staticwebassets.pack.json
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\scopedcss\bundle\DR.styles.css
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\DR.csproj.Up2Date
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\DR.dll
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\refint\DR.dll
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\DR.pdb
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\DR.genruntimeconfig.cache
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\ref\DR.dll
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\DR.DR_GUI.Properties.Resources.resources
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\DR.csproj.GenerateResource.cache
+E:\رابعه\ماتريال جديده\compiler\proj\DR\DR\DR\obj\Debug\net8.0\DR_GUI.Form1.resources
