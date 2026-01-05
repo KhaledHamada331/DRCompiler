@@ -3,7 +3,6 @@
 An interactive **Compiler** built from scratch using **C#** and **.NET Framework**. This project was developed as part of our **Compiler Design** course to demonstrate the full compilation pipeline—from raw source code to semantic validation.
 
 Developed by: **Khaled Hamada** & **Khaled Mohamed**.
-
 ---
 
 ## ✨ Project Overview
