@@ -1,6 +1,4 @@
-using System;
-
-namespace DR_GUI
+namespace DR_GUI.Core.Lexer
 {
     public enum TokenType
     {
@@ -40,4 +38,3 @@ namespace DR_GUI
         }
     }
 }
-

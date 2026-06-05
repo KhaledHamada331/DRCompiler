@@ -1,9 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
-using System.Linq;
 
-namespace DR_GUI
+namespace DR_GUI.Core.Lexer
 {
     public class DRScanner
     {
@@ -24,7 +23,7 @@ namespace DR_GUI
             @"(?<COMMENT>//NOTE[^\n]*)|(?<WHITESPACE>[ \t\r]+)|(?<NEWLINE>\n)|" +
             @"(?<STRING>\""[^\""]*\"")|(?<DOUBLE>\d+\.\d+)|(?<INTEGER>\d+)|" +
             @"(?<OPERATOR_MULTI>\+\+|--|<=|>=|==|!=)|" +
-            @"(?<SYMBOL>[\(\)\{\};,\$=+\-*/])|" +
+            @"(?<SYMBOL>[\(\)\{\};,\$=+\-*/<>])|" +
             @"(?<INCLUDE>#ATTACH)|(?<IDENTIFIER>[a-zA-Z_][a-zA-Z0-9_]*)";
 
         public List<Token> Scan(string sourceCode)
@@ -91,9 +90,10 @@ namespace DR_GUI
                 case "-": return TokenType.OP_SUBTRACT;
                 case "*": return TokenType.OP_MULTIPLY;
                 case "/": return TokenType.OP_DIVIDE;
+                case "<": return TokenType.OP_LESS;
+                case ">": return TokenType.OP_GREATER;
                 default: throw new KeyNotFoundException("Unknown single symbol: " + value);
             }
         }
     }
 }
-

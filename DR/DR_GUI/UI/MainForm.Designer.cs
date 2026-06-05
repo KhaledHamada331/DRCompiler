@@ -1,6 +1,6 @@
-﻿namespace DR_GUI
+namespace DR_GUI.UI
 {
-    partial class Form1
+    partial class MainForm
     {
         private System.ComponentModel.IContainer components = null;
 

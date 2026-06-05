@@ -40,25 +40,31 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
-    <Reference Include="System.Drawing" />
     <Reference Include="System.Net.Http" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Token.cs" />
-    <Compile Include="DRScanner.cs" />
-    <Compile Include="DRParser.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Core\AST\DataType.cs" />
+    <Compile Include="Core\AST\ParseNode.cs" />
+    <Compile Include="Core\Lexer\Token.cs" />
+    <Compile Include="Core\Lexer\DRScanner.cs" />
+    <Compile Include="Core\Parser\DRParser.cs" />
+    <Compile Include="Core\Semantic\SymbolInfo.cs" />
+    <Compile Include="Core\Semantic\SymbolTable.cs" />
+    <Compile Include="Core\Semantic\SemanticError.cs" />
+    <Compile Include="UI\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="UI\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\UIConstants.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="UI\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
