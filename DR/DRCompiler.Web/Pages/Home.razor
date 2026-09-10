@@ -1,0 +1,314 @@
+@page "/"
+@inject DrCompilationService CompilerService
+
+<PageTitle>DR Compiler — Live Demo</PageTitle>
+
+<div class="compiler-layout">
+    @* ── Left Column: Editor ──────────────────────────────────────────── *@
+    <div class="editor-panel">
+        <textarea class="code-editor" @bind="sourceCode" @bind:event="oninput" placeholder="@editorPlaceholder"
+                  spellcheck="false" rows="20" disabled="@isCompiling">
+        </textarea>
+
+        <div class="button-bar">
+            <button class="btn btn-primary" @onclick="RunCompile" disabled="@isCompiling">
+                @if (isCompiling)
+                {
+                    <span>⏳ Compiling…</span>
+                }
+                else
+                {
+                    <span>▶ Compile</span>
+                }
+            </button>
+            <button class="btn btn-secondary" @onclick="LoadSample" disabled="@isCompiling">
+                📄 Load Sample
+            </button>
+            <button class="btn btn-secondary" @onclick="ClearAll" disabled="@isCompiling">
+                🗑 Clear
+            </button>
+        </div>
+
+        @if (showEmptyWarning)
+        {
+            <div class="inline-warning">
+                ⚠ Please enter some DR source code before compiling.
+            </div>
+        }
+
+        <div class="status-line @statusClass">
+            @statusText
+        </div>
+    </div>
+
+    @* ── Right Column: Results ────────────────────────────────────────── *@
+    <div class="results-panel">
+        <div class="tab-bar">
+            <button class="tab @(activeTab == Tab.Tokens ? "active" : "")" @onclick="@(() => activeTab = Tab.Tokens)">
+                Tokens
+            </button>
+            <button class="tab @(activeTab == Tab.ParseTree ? "active" : "")"
+                    @onclick="@(() => activeTab = Tab.ParseTree)">
+                Parse Tree
+            </button>
+            <button class="tab @(activeTab == Tab.Symbols ? "active" : "")" @onclick="@(() => activeTab = Tab.Symbols)">
+                Symbol Table
+            </button>
+            <button class="tab @(activeTab == Tab.Diagnostics ? "active" : "")"
+                    @onclick="@(() => activeTab = Tab.Diagnostics)">
+                Diagnostics
+                @if (result?.Diagnostics.Count > 0)
+                {
+                    <span class="tab-badge">@result.Diagnostics.Count</span>
+                }
+            </button>
+        </div>
+
+        <div class="tab-content">
+            @if (result == null)
+            {
+                @* ── No compilation yet ── *@
+                <div class="empty-state">
+                    <div class="empty-state-icon">🔧</div>
+                    <p>Compile some code to see results</p>
+                </div>
+            }
+            else
+            {
+                @switch (activeTab)
+                {
+                    case Tab.Tokens:
+                        @if (result.Tokens.Count > 0)
+                        {
+                            <div class="table-container">
+                                <table class="data-table tokens-table">
+                                    <thead>
+                                        <tr>
+                                            <th class="col-type">Type</th>
+                                            <th class="col-value">Value</th>
+                                            <th class="col-line">Line</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var token in result.Tokens)
+                                        {
+                                            <tr>
+                                                <td><span class="token-type">@token.Type</span></td>
+                                                <td class="code-cell">@token.Value</td>
+                                                <td class="line-cell">@token.Line</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="empty-state">
+                                <div class="empty-state-icon">📝</div>
+                                <p>No tokens produced</p>
+                            </div>
+                        }
+                        break;
+
+                    case Tab.ParseTree:
+                        @if (!string.IsNullOrEmpty(result.ParseTreeText))
+                        {
+                            <div class="parse-tree">
+                                @foreach (var line in result.ParseTreeText.Split('\n', StringSplitOptions.RemoveEmptyEntries))
+                                {
+                                    var parts = line.Split('|', 2);
+                                    if (parts.Length == 2 && int.TryParse(parts[0], out var depth))
+                                    {
+                                        <div class="tree-line tree-depth-@(depth % 6)">@parts[1]</div>
+                                    }
+                                    else
+                                    {
+                                        <div class="tree-line">@line</div>
+                                    }
+                                }
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="empty-state">
+                                <div class="empty-state-icon">🌳</div>
+                                <p>No parse tree available</p>
+                            </div>
+                        }
+                        break;
+
+                    case Tab.Symbols:
+                        @if (result.Symbols.Count > 0)
+                        {
+                            <div class="table-container">
+                                <table class="data-table symbols-table">
+                                    <thead>
+                                        <tr>
+                                            <th class="col-name">Name</th>
+                                            <th class="col-type">Type</th>
+                                            <th class="col-scope">Scope</th>
+                                            <th class="col-line">Declared at Line</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var sym in result.Symbols)
+                                        {
+                                            <tr>
+                                                <td class="code-cell">@sym.Name</td>
+                                                <td><span class="symbol-type">@sym.Type</span></td>
+                                                <td>@sym.Scope</td>
+                                                <td class="line-cell">@sym.DeclaredLine</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="empty-state">
+                                <div class="empty-state-icon">📋</div>
+                                <p>No symbols declared</p>
+                            </div>
+                        }
+                        break;
+
+                    case Tab.Diagnostics:
+                        @if (result.Diagnostics.Count > 0)
+                        {
+                            @foreach (var diag in result.Diagnostics)
+                            {
+                                <div class="diagnostic-card diagnostic-@diag.Stage.ToLowerInvariant()">
+                                    <span class="stage-badge stage-@diag.Stage.ToLowerInvariant()">
+                                        @diag.Stage
+                                    </span>
+                                    <div class="diagnostic-body">
+                                        <div class="diagnostic-message">@diag.Message</div>
+                                        @if (diag.Line.HasValue)
+                                        {
+                                            <div class="diagnostic-line">Line @diag.Line</div>
+                                        }
+                                    </div>
+                                </div>
+                            }
+                        }
+                        else if (result.Success)
+                        {
+                            <div class="empty-state">
+                                <div class="empty-state-icon">🎉</div>
+                                <p class="success-message">No errors — compilation successful!</p>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="empty-state">
+                                <div class="empty-state-icon">❓</div>
+                                <p>No diagnostics available</p>
+                            </div>
+                        }
+                        break;
+                }
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    private string sourceCode = string.Empty;
+    private CompilationResult? result;
+    private bool isCompiling;
+    private bool showEmptyWarning;
+    private Tab activeTab = Tab.Tokens;
+    private string statusText = "Ready";
+    private string statusClass = "";
+
+    private const string editorPlaceholder =
+        "plan MORNING_COFFEE()\n{\n    file x = 10;\n    SHOW x;\n}";
+
+    private enum Tab { Tokens, ParseTree, Symbols, Diagnostics }
+
+    private async Task RunCompile()
+    {
+        showEmptyWarning = false;
+
+        if (string.IsNullOrWhiteSpace(sourceCode))
+        {
+            showEmptyWarning = true;
+            return;
+        }
+
+        isCompiling = true;
+        statusText = "Compiling…";
+        statusClass = "";
+        StateHasChanged();
+
+        // Yield to let the UI update before the synchronous compile runs
+        await Task.Delay(1);
+
+        try
+        {
+            result = CompilerService.Compile(sourceCode);
+
+            if (result.Success)
+            {
+                statusText = "✓ Compiled successfully";
+                statusClass = "status-success";
+            }
+            else
+            {
+                var count = result.Diagnostics.Count;
+                statusText = $"✗ {count} error{(count != 1 ? "s" : "")} found";
+                statusClass = "status-error";
+                activeTab = Tab.Diagnostics;
+            }
+        }
+        catch (Exception ex)
+        {
+            statusText = $"✗ Internal error: {ex.Message}";
+            statusClass = "status-error";
+        }
+        finally
+        {
+            isCompiling = false;
+        }
+    }
+
+    private void LoadSample()
+    {
+        sourceCode = @"#ATTACH files
+
+plan MORNING_COFFEE()
+{
+    file task_count = 5;
+    duration execution_time = 10.5;
+    note message = ""Processing routine tasks"";
+    status completed = false;
+
+    CHECK (task_count >= 5)
+    {
+        SHOW message;
+        completed = true;
+    }
+    REJECT
+    {
+        SHOW ""Task count is too low"";
+    }
+}";
+        result = null;
+        showEmptyWarning = false;
+        statusText = "Ready — sample loaded";
+        statusClass = "";
+        activeTab = Tab.Tokens;
+    }
+
+    private void ClearAll()
+    {
+        sourceCode = string.Empty;
+        result = null;
+        showEmptyWarning = false;
+        statusText = "Ready";
+        statusClass = "";
+        activeTab = Tab.Tokens;
+    }
+}
