@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -46,14 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Core\AST\DataType.cs" />
-    <Compile Include="Core\AST\ParseNode.cs" />
-    <Compile Include="Core\Lexer\Token.cs" />
-    <Compile Include="Core\Lexer\DRScanner.cs" />
-    <Compile Include="Core\Parser\DRParser.cs" />
-    <Compile Include="Core\Semantic\SymbolInfo.cs" />
-    <Compile Include="Core\Semantic\SymbolTable.cs" />
-    <Compile Include="Core\Semantic\SemanticError.cs" />
+    <ProjectReference Include="..\DRCompiler.Core\DRCompiler.Core.csproj">
+      <Project>{B1A2C3D4-E5F6-7890-ABCD-EF1234567890}</Project>
+      <Name>DRCompiler.Core</Name>
+    </ProjectReference>
     <Compile Include="UI\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
